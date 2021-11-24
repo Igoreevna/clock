@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    /* background: #00ecb9; */
+    background: #555;
+    font-family: italic;
+    font-weight: 100;
+  }
+  #clock{
+    padding-top: 250px;
+  }
+   
+  .clock-title {
+    /* color: #396; */
+    color:peachpuff;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+   
+  .clock {
+    font-family: sans-serif;
+    color: peachpuff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 80px;
+  }
+   
+  .clock-number {
+    padding: 30px;
+    border-radius: 5px;
+    border-width: 40px;
+    /* background: #00bf96; */
+    background: #222;
+    display: inline-block;
+  }
+   
+  .clock-time {
+    padding: 40px;
+    border-radius: 40px;
+    /* background: #00816a; */
+    background: #333;
+    display: inline-block;
+  }
+   
+  .clock-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 32px;
+  }
+
+  .clock-dat{
+    color: peachpuff;
+    font-size: 32px;
+  }
+  .birthday-message{
+    display: none;
+    font-size: 48px;
+    font-style: italic;
+  }
+   
+  .visible{
+    display: block;
+  }
+   
+  .hidden{
+    display: none;
+  }
